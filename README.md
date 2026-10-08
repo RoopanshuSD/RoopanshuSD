@@ -2,18 +2,19 @@
 
 Software Engineering student at **Delhi Technological University** ('28, CGPA 9.67) and **ML Research Intern** at DTU's Machine Learning Research Lab.
 
-I build **LLM agents and the benchmarks that grade them**, and I do research on **generative models for satellite imagery**.
+I build **research loops, LLM agents, and the evaluations that keep them honest**, and I do research on **generative models for satellite imagery**.
 
-**[📄 Resume (PDF)](Roopanshu_Gupta_Resume.pdf)** · [LinkedIn](https://www.linkedin.com/in/roopanshugupta/) · [Email](mailto:roopanshugupta0512@gmail.com) · [LeetCode](https://leetcode.com/u/RoopanshuSD/) · [Codeforces](https://codeforces.com/profile/RoopanshuSD/)
+**📄 Resume:** [Agents & evaluation](Roopanshu_Gupta_Resume.pdf) · [Research engineering](Roopanshu_Gupta_Resume_Research.pdf) · [LinkedIn](https://www.linkedin.com/in/roopanshugupta/) · [Email](mailto:roopanshugupta0512@gmail.com) · [LeetCode](https://leetcode.com/u/RoopanshuSD/) · [Codeforces](https://codeforces.com/profile/RoopanshuSD/)
 
 ---
 
 ### Featured work
 
-**Agents & evaluation**
+**Research automation, agents & evaluation**
 
 | Project | What it is | Measured result |
 |---|---|---|
+| [trusted-evolve](https://github.com/RoopanshuSD/trusted-evolve) | Evolutionary search with a zero-tolerance verifier on AlphaEvolve's circle-packing problem + a multi-seed study of misleading single-run comparisons | **2.635983** (n=26): beats AlphaEvolve's 2.635863, equals the best known; 1-seed comparisons pick the wrong winner 30% of the time |
 | [cloud-remediation-agent](https://github.com/RoopanshuSD/cloud-remediation-agent) | Policy-gated incident-remediation agent + **RemediationBench**: sandboxed AWS incidents graded by hidden state verifiers | Code-enforced verify stage cut false-success **29% → 0%** (fixed-prior planner); gate blocked 2/2 unsafe shortcuts |
 | [unified-data-mcp-server](https://github.com/RoopanshuSD/unified-data-mcp-server) | Remote MCP server: read-only, audited agent access to SQL + REST, JWT resource-server auth, RBAC | SQL guard blocked **48/48** red-team attacks, 0/18 false positives; 92 tests |
 | [datamind](https://github.com/RoopanshuSD/datamind) | Local-LLM exploratory data analysis: FK inference via graph modelling, anomaly flags | |
@@ -45,7 +46,7 @@ First Prize, DTU Summer School on AI (with Adobe) · National Finalist, Smart In
 
 ### Toolbox
 
-`Python` `C++` `PyTorch` `Claude API` `Model Context Protocol` `FastAPI` `PostgreSQL` `sqlglot` `Docker` `AWS` `Linux / HPC` `Git`
+`Python` `C++` `PyTorch` `SciPy` `Claude API` `Model Context Protocol` `FastAPI` `PostgreSQL` `sqlglot` `Docker` `AWS` `Linux / HPC` `Git`
 
 ---
 
