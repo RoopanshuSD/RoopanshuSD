@@ -15,6 +15,7 @@ I build **research loops, LLM agents, and the evaluations that keep them honest*
 | Project | What it is | Measured result |
 |---|---|---|
 | [trusted-evolve](https://github.com/RoopanshuSD/trusted-evolve) | Evolutionary search with a zero-tolerance verifier on AlphaEvolve's circle-packing problem + a multi-seed study of misleading single-run comparisons | **2.635983** (n=26): beats AlphaEvolve's 2.635863, equals the best known; 1-seed comparisons pick the wrong winner 30% of the time |
+| [ml-pitfalls-lab](https://github.com/RoopanshuSD/ml-pitfalls-lab) | 11 silent ML bugs (leaky evaluation, wrong losses, broken training loops) reproduced against known ground truth, with diagnosis write-ups and LLM code-review probes | Feature selection before CV: **85% accuracy on pure noise** (truth 50%); missing `model.eval()`: 93% → 50% |
 | [cloud-remediation-agent](https://github.com/RoopanshuSD/cloud-remediation-agent) | Policy-gated incident-remediation agent + **RemediationBench**: sandboxed AWS incidents graded by hidden state verifiers | Code-enforced verify stage cut false-success **29% → 0%** (fixed-prior planner); gate blocked 2/2 unsafe shortcuts |
 | [unified-data-mcp-server](https://github.com/RoopanshuSD/unified-data-mcp-server) | Remote MCP server: read-only, audited agent access to SQL + REST, JWT resource-server auth, RBAC | SQL guard blocked **48/48** red-team attacks, 0/18 false positives; 92 tests |
 | [datamind](https://github.com/RoopanshuSD/datamind) | Local-LLM exploratory data analysis: FK inference via graph modelling, anomaly flags | |
@@ -46,7 +47,7 @@ First Prize, DTU Summer School on AI (with Adobe) · National Finalist, Smart In
 
 ### Toolbox
 
-`Python` `C++` `PyTorch` `SciPy` `Claude API` `Model Context Protocol` `FastAPI` `PostgreSQL` `sqlglot` `Docker` `AWS` `Linux / HPC` `Git`
+`Python` `C++` `PyTorch` `scikit-learn` `SciPy` `Claude API` `Model Context Protocol` `FastAPI` `PostgreSQL` `sqlglot` `Docker` `AWS` `Linux / HPC` `Git`
 
 ---
 
